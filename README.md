@@ -7,6 +7,9 @@ server backup script ( which contains only a tar command, really sophisticated I
 ## git_clean_commit_hist.sh
 delete the commit history of your git repository.
 
+## fix_permissions.sh
+Fixing permissions for the current directory.
+
 ## pishrink.sh
 create shrinked raspberry pi msd-card images.
 

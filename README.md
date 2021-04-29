@@ -1,7 +1,7 @@
 # scripts
 scripts, little programs, etc.
 
-## backup.sh
+## script-backup.sh
 server backup script ( which contains only a tar command, really sophisticated I know! ).
 
 ## git_clean_commit_hist.sh
@@ -24,3 +24,7 @@ In the script the variables `username`, `password` and `downloadpath` for the do
 The script can be executed periodically, for example with `crontab`. To do this, execute the command `crontab -e` and add this line to make a daily fetch at 3am:
 
     0 0 */3 * * python3 /path/to/script/zeit-download.py >/dev/null 2>&1
+
+# script-dynv6_yourdomain.sh
+Update dynv6.net IPv4 and IPv6 prefix to the current IP of the host.
+Used with a systemd service and timer to update periodically.

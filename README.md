@@ -26,5 +26,5 @@ The script can be executed periodically, for example with `crontab`. To do this,
     0 0 */3 * * python3 /path/to/script/zeit-download.py >/dev/null 2>&1
 
 # script-dynv6_yourdomain.sh
-Update dynv6.net IPv4 and IPv6 prefix to the current IP of the host.
+Update dynv6.net IPv4 IPv6 and IPv6 prefix to the current IP of the host.
 Used with a systemd service and timer to update periodically.
